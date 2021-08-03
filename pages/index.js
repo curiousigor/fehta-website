@@ -474,20 +474,17 @@ export default function Home() {
                   <div className="w-12 h-12 inline-flex items-center justify-center mb-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      data-name="Layer 1"
                       viewBox="0 0 100 125"
                     >
-                      <g data-name="Group">
+                      <g>
                         <path
-                          data-name="Compound Path"
                           d="M92.2 48.9a2 2 0 00-.3-2.8L51.2 13.6a1.8 1.8 0 00-2.4 0L8.1 46.1a2 2 0 00-.3 2.8 2 2 0 001.6.7 1.7 1.7 0 001.2-.4l3.4-2.7v31.3a9 9 0 009 9h54a9 9 0 009-9V46.5l3.4 2.7a2 2 0 002.8-.3zM82 77.8a5 5 0 01-5 5H23a5 5 0 01-5-5V43.3l32-25.6 32 25.6z"
                         />
                         <path
-                          data-name="Compound Path"
                           d="M48.6 35.2C47.4 36.4 37 47.3 37 54a13.1 13.1 0 0011.1 13v7.8a1.9 1.9 0 002 2 2 2 0 002-2V67A13.1 13.1 0 0063 54c0-6.4-9.3-16.4-11.3-18.5a2 2 0 00-1.6-.9l-.8.2zM41 54c0-2.9 3.6-8 7.1-12.2v21.1A9 9 0 0141 54zm11.1 8.9v-21C55.5 46.1 59 51.2 59 54a9.1 9.1 0 01-6.9 8.9z"
                         />
                       </g>
-                    </svg>{" "}
+                    </svg>
                   </div>
                   <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-bold mb-3">
