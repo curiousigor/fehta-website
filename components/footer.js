@@ -20,26 +20,26 @@ class Footer extends React.Component {
           </a>
           <nav className="flex flex-wrap items-center justify-center text-base lg:mr-auto lg:border-l lg:pl-8 pb-5 md:pb-0">
             <a
-              href="#"
+              href="/tofu"
               className="px-3 py-1 mr-1 text-base text-black transition duration-200 ease-in-out hover:text-gray-800"
             >
               Tofu
             </a>
             <a
-              href="#"
+              href="/tempeh"
               className="px-3 py-1 mr-1 text-base text-black transition duration-200 ease-in-out hover:text-gray-800"
             >
               Tempeh
             </a>
             <br />
             <a
-              href="#"
+              href="/trgovine"
               className="px-3 py-1 mr-1 text-base text-black transition duration-200 ease-in-out hover:text-gray-800"
             >
               Trgovine
             </a>
             <a
-              href="#"
+              href="/o-fehti"
               className="px-3 py-1 md:mr-1 text-base text-black transition duration-200 ease-in-out hover:text-gray-500"
             >
               O Fehti

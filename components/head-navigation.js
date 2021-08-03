@@ -9,10 +9,10 @@ class Navigation extends React.Component {
                     <nav className="flex flex-wrap items-center justify-start text-base ">
                         <ul className="items-center inline-block list-none lg:inline-flex">
                         <li>
-                            <a href="#" className="px-4 py-1 mr-1 text-base">Tofu</a>
+                            <a href="/tofu" className="px-4 py-1 mr-1 text-base">Tofu</a>
                         </li>
                         <li>
-                            <a href="#" className="px-4 py-1 mr-1 text-base">Tempeh</a>
+                            <a href="/tempeh" className="px-4 py-1 mr-1 text-base">Tempeh</a>
                         </li>
                         </ul>
                     </nav>
@@ -51,10 +51,10 @@ class Navigation extends React.Component {
                     <nav className="flex flex-wrap items-center justify-start text-base ">
                         <ul className="items-center inline-block list-none lg:inline-flex">
                         <li>
-                            <a href="#" className="px-4 py-1 mr-1 text-base">Trgovine</a>
+                            <a href="/trgovine" className="px-4 py-1 mr-1 text-base">Trgovine</a>
                         </li>
                         <li>
-                            <a href="#" className="px-4 py-1 mr-1 text-base">O Fehti</a>
+                            <a href="/o-fehti" className="px-4 py-1 mr-1 text-base">O Fehti</a>
                         </li>
                         </ul>
                     </nav>
