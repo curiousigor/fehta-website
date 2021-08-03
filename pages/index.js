@@ -17,9 +17,9 @@ export default function Home() {
         <section className="pb-0 md:pb-28">
           <div className="container flex flex-col items-center px-5 py-8 mx-auto">
             <div className="flex flex-col w-full mb-12 text-center">
-              <h2 className="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font">
+              {/* <h2 className="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font">
                 Tukaj živi Fehtina
-              </h2>
+              </h2> */}
               <h1 className="mx-auto mb-12 font-semibold leading-none text-black lg:w-1/2 text-5xl md:text-6xl title-font font-machina">
                 Dobra hrana za dobre ljudi. Poišči nas, kjer bi iskal
                 prijatelje.
@@ -381,7 +381,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials */}
-        <section className="text-gray-600 body-font pb-0 md:pb-20">
+        <section className="text-gray-800 body-font pb-0 md:pb-20">
           <div className="container px-5 py-24 mx-auto">
             <div className="text-center md:mb-14 mb-8">
               <h1 className="md:text-5xl text-4xl font-bold title-font text-gray-900 font-machina mb-4">
@@ -399,7 +399,9 @@ export default function Home() {
                   >
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
-                  <p className="leading-relaxed mb-6">Najboljši tofu ever!</p>
+                  <p className="leading-relaxed mb-6 text-lg">
+                    Najboljši tofu ever!
+                  </p>
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
@@ -427,7 +429,7 @@ export default function Home() {
                   >
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
-                  <p className="leading-relaxed mb-6">
+                  <p className="leading-relaxed mb-6 text-lg">
                     Kaj tak dobrega pa še ne!
                   </p>
                   <a className="inline-flex items-center">
@@ -477,6 +479,7 @@ export default function Home() {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 100 125"
+                      height="100%"
                     >
                       <g>
                         <path d="M92.2 48.9a2 2 0 00-.3-2.8L51.2 13.6a1.8 1.8 0 00-2.4 0L8.1 46.1a2 2 0 00-.3 2.8 2 2 0 001.6.7 1.7 1.7 0 001.2-.4l3.4-2.7v31.3a9 9 0 009 9h54a9 9 0 009-9V46.5l3.4 2.7a2 2 0 002.8-.3zM82 77.8a5 5 0 01-5 5H23a5 5 0 01-5-5V43.3l32-25.6 32 25.6z" />
@@ -515,6 +518,7 @@ export default function Home() {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 100 125"
+                      height="100%"
                     >
                       <path d="M90.766 24.389L53.396 5.704c-1.873-.939-4.92-.938-6.79-.001L9.236 24.388c-1.342.669-2.112 1.76-2.113 2.991 0 .021.005.041.005.061v42.349c0 2.283 1.527 4.796 3.554 5.845l35.919 18.615c.968.5 2.183.751 3.397.751 1.217 0 2.434-.252 3.402-.755l35.916-18.61c2.025-1.051 3.554-3.564 3.554-5.847V27.464c.001-.028.007-.056.007-.085-.001-1.231-.772-2.322-2.111-2.99zM48.336 9.158c.796-.399 2.53-.4 3.33.001l36.445 18.222-16.443 8.222-38.111-19.054 14.779-7.391zm-.268 81.5L12.459 72.202c-.74-.384-1.468-1.579-1.468-2.414V31.252l35.617 17.81c.435.217.931.383 1.46.505v41.091zm.266-45.053L11.888 27.381l16.442-8.22 38.113 19.055-14.775 7.388c-.798.398-2.539.397-3.334.001zm40.673 24.182c0 .836-.728 2.033-1.469 2.418L51.932 90.654V49.566a6.682 6.682 0 001.463-.506l15.486-7.744v13.333l4.674-2.424V38.979l15.452-7.727v38.535z" />
                     </svg>
