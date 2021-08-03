@@ -1,16 +1,16 @@
-import Head from 'next/head'
+import Head from "next/head";
 import Navigation from "../components/head-navigation";
 import Footer from "../components/footer";
 
 export default function Home() {
   return (
     <div className="w-screen">
-        <Head>
-          <title>Fehta - Hrana za vse</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+      <Head>
+        <title>Fehta - Hrana za vse</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-        <Navigation />
+      <Navigation />
 
       <main className="mx-auto max-w-screen-xl">
         {/* Hero */}
@@ -90,7 +90,10 @@ export default function Home() {
                 </span>
                 Dovzeten za vpoj drugih okusov v obliki marinad in začimb
               </p>
-              <a className="mt-3 text-red-600 inline-flex items-center">
+              <a
+                href="/tofu"
+                className="mt-3 text-red-600 inline-flex items-center"
+              >
                 Naš tofu
                 <svg
                   fill="none"
@@ -180,7 +183,10 @@ export default function Home() {
                 </span>
                 Dovzeten za vpoj drugih okusov v obliki marinad in začimb
               </p>
-              <a className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center">
+              <a
+                href="/tofu"
+                className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
+              >
                 Naš tofu
                 <svg
                   fill="none"
@@ -262,7 +268,10 @@ export default function Home() {
                 </span>
                 Vebuje vseh osem esencialnih aminokislin
               </p>
-              <a className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center">
+              <a
+                href="/tempeh"
+                className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
+              >
                 Naš tempeh
                 <svg
                   fill="none"
@@ -390,12 +399,7 @@ export default function Home() {
                   >
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
-                  <p className="leading-relaxed mb-6">
-                    Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                    carry neutra before they sold out fixie 90's microdosing.
-                    Tacos pinterest fanny pack venmo, post-ironic heirloom
-                    try-hard pabst authentic iceland.
-                  </p>
+                  <p className="leading-relaxed mb-6">Najboljši tofu ever!</p>
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
@@ -404,10 +408,10 @@ export default function Home() {
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
-                        Holden Caulfield
+                        Vita
                       </span>
                       <span className="text-gray-500 text-sm">
-                        UI DEVELOPER
+                        Little Kitchen Vibes
                       </span>
                     </span>
                   </a>
@@ -424,10 +428,7 @@ export default function Home() {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p className="leading-relaxed mb-6">
-                    Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                    carry neutra before they sold out fixie 90's microdosing.
-                    Tacos pinterest fanny pack venmo, post-ironic heirloom
-                    try-hard pabst authentic iceland.
+                    Kaj tak dobrega pa še ne!
                   </p>
                   <a className="inline-flex items-center">
                     <img
@@ -437,9 +438,9 @@ export default function Home() {
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
-                        Alper Kamu
+                        Nekdo drug
                       </span>
-                      <span className="text-gray-500 text-sm">DESIGNER</span>
+                      <span className="text-gray-500 text-sm">Instagram</span>
                     </span>
                   </a>
                 </div>
@@ -457,16 +458,17 @@ export default function Home() {
           </div>
           <div className="container px-5 mx-auto flex sm:flex-nowrap flex-wrap">
             <div className="lg:w-2/3 md:w-1/2 w-full h-96 md:h-auto bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-              <iframe 
+              <iframe
                 className="absolute inset-0"
                 title="map"
                 marginHeight="0"
                 marginWidth="0"
                 scrolling="no"
-                src="https://www.google.com/maps/d/u/0/embed?mid=10u3lv8cRnrSQuvRUAfcqsR5VBYgyGJZ2" 
+                src="https://www.google.com/maps/d/u/0/embed?mid=10u3lv8cRnrSQuvRUAfcqsR5VBYgyGJZ2"
                 width="100%"
                 height="100%"
-                frameBorder="0"></iframe>
+                frameBorder="0"
+              ></iframe>
             </div>
             <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
               <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:pl-6 lg:text-left">
@@ -477,12 +479,8 @@ export default function Home() {
                       viewBox="0 0 100 125"
                     >
                       <g>
-                        <path
-                          d="M92.2 48.9a2 2 0 00-.3-2.8L51.2 13.6a1.8 1.8 0 00-2.4 0L8.1 46.1a2 2 0 00-.3 2.8 2 2 0 001.6.7 1.7 1.7 0 001.2-.4l3.4-2.7v31.3a9 9 0 009 9h54a9 9 0 009-9V46.5l3.4 2.7a2 2 0 002.8-.3zM82 77.8a5 5 0 01-5 5H23a5 5 0 01-5-5V43.3l32-25.6 32 25.6z"
-                        />
-                        <path
-                          d="M48.6 35.2C47.4 36.4 37 47.3 37 54a13.1 13.1 0 0011.1 13v7.8a1.9 1.9 0 002 2 2 2 0 002-2V67A13.1 13.1 0 0063 54c0-6.4-9.3-16.4-11.3-18.5a2 2 0 00-1.6-.9l-.8.2zM41 54c0-2.9 3.6-8 7.1-12.2v21.1A9 9 0 0141 54zm11.1 8.9v-21C55.5 46.1 59 51.2 59 54a9.1 9.1 0 01-6.9 8.9z"
-                        />
+                        <path d="M92.2 48.9a2 2 0 00-.3-2.8L51.2 13.6a1.8 1.8 0 00-2.4 0L8.1 46.1a2 2 0 00-.3 2.8 2 2 0 001.6.7 1.7 1.7 0 001.2-.4l3.4-2.7v31.3a9 9 0 009 9h54a9 9 0 009-9V46.5l3.4 2.7a2 2 0 002.8-.3zM82 77.8a5 5 0 01-5 5H23a5 5 0 01-5-5V43.3l32-25.6 32 25.6z" />
+                        <path d="M48.6 35.2C47.4 36.4 37 47.3 37 54a13.1 13.1 0 0011.1 13v7.8a1.9 1.9 0 002 2 2 2 0 002-2V67A13.1 13.1 0 0063 54c0-6.4-9.3-16.4-11.3-18.5a2 2 0 00-1.6-.9l-.8.2zM41 54c0-2.9 3.6-8 7.1-12.2v21.1A9 9 0 0141 54zm11.1 8.9v-21C55.5 46.1 59 51.2 59 54a9.1 9.1 0 01-6.9 8.9z" />
                       </g>
                     </svg>
                   </div>
@@ -493,7 +491,10 @@ export default function Home() {
                     <p className="leading-relaxed text-base">
                       Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
                     </p>
-                    <a className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center">
+                    <a
+                      href="/trgovine"
+                      className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
+                    >
                       Poglej kje se nahajamo
                       <svg
                         fill="none"
@@ -526,7 +527,10 @@ export default function Home() {
                     <p className="leading-relaxed text-base">
                       Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
                     </p>
-                    <a className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center" href="mailto:info@fehta.com?subject=Hej%20Fehta!">
+                    <a
+                      className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
+                      href="mailto:info@fehta.com?subject=Hej%20Fehta!"
+                    >
                       Napiši nam e-mail
                       <svg
                         fill="none"
@@ -541,7 +545,10 @@ export default function Home() {
                       </svg>
                     </a>
                     <br />
-                    <a className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center">
+                    <a
+                      href="https://instagram.com/fehta.family/"
+                      className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
+                    >
                       Piši nam na Instagramu
                       <svg
                         fill="none"
@@ -564,5 +571,5 @@ export default function Home() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
