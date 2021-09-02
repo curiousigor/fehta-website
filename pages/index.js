@@ -112,7 +112,7 @@ export default function Home() {
               <img
                 className="object-cover object-center rounded-lg"
                 alt="hero"
-                src="/images/tofu-package.jpg"
+                src="/images/IMG_4148.jpg"
               />
             </div>
           </div>
@@ -319,7 +319,7 @@ export default function Home() {
                     ekološko
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
+                    Preverjeno ter z EKO certifikatom.
                   </p>
                 </div>
               </div>
@@ -346,7 +346,7 @@ export default function Home() {
                     zate
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
+                    Vitamini, minerali, proteini in probiotiki za tvoje zdravje.
                   </p>
                 </div>
               </div>
@@ -372,7 +372,7 @@ export default function Home() {
                     Brez aditivov in konzervansov
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
+                    Raje sveže, kot z nepotrebnimi dodatki.
                   </p>
                 </div>
               </div>
@@ -492,7 +492,7 @@ export default function Home() {
                       BIO trgovine v tvoji okolici
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
+                      Preveri kje se nahajajo Fehtine dobrote, in jih prevzemi v tvoji najljubši BIO trgovini.
                     </p>
                     <a
                       href="/trgovine"
@@ -529,7 +529,13 @@ export default function Home() {
                       <span className="font-normal text-sm"> (kmalu)</span>
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Tukaj je morda kaj vec teksta gled Fehte in tega vsega.
+                      1. Napišeš kaj se ti lušta.
+                    </p>
+                    <p className="leading-relaxed text-base">
+                      2. Ti nakažeš, mi pošljemo.
+                    </p>
+                    <p className="leading-relaxed text-base">
+                      3. Ti malicaš.
                     </p>
                     <a
                       className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
