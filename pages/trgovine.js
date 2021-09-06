@@ -406,6 +406,42 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              {/* Store */}
+              <div className="p-4 lg:w-1/4 md:w-1/2">
+                <div className="h-full flex flex-col items-center text-center">
+                  <img
+                    alt="team"
+                    className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="/images/vegevita.jpg"
+                  />
+                  <div className="w-full">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      VEGEvita
+                    </h2>
+                    <a href="https://goo.gl/maps/HcnR9qmDCHe6gv7M7">
+                      <h3 className="text-gray-500 mb-3">
+                        Ljubljanska cesta 40, 2310 Slovenska Bistrica
+                      </h3>
+                    </a>
+                    <a href="https://goo.gl/maps/HcnR9qmDCHe6gv7M7">
+                      <h3 className="text-sm text-red-600 hover:text-red-800 transition duration-200 ease-in-out mb-3 inline-flex items-center">
+                        Poglej na Google Maps
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
