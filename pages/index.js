@@ -230,7 +230,7 @@ export default function Home() {
         </section>
 
         {/* Tempeh */}
-        <section className="pb-0 md:pb-14">
+        <section className="pb-0 md:pb-14 md:pt-20">
           <div className="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
             <div className="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/2">
               <img
@@ -450,8 +450,20 @@ export default function Home() {
                         <a
                           href="https://littlekitchenvibes.com"
                           target="_blank"
+                          className="inline-flex items-center hover:text-red-600"
                         >
                           Little Kitchen Vibes
+                          <svg
+                            fill="none"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            className="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                          </svg>
                         </a>
                       </span>
                     </span>
