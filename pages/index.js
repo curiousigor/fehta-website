@@ -15,6 +15,13 @@ export default function Home() {
       <main className="mx-auto max-w-screen-xl">
         {/* Hero */}
         <section className="pb-0 md:pb-28">
+          <div className="max-w-3xl mx-auto md:pb-16 pb-8 md:px-0 px-4">
+            <img
+              alt="content"
+              className="object-cover object-center h-full w-full"
+              src="./images/header-image.png"
+            />
+          </div>
           <div className="container flex flex-col items-center px-5 py-8 mx-auto">
             <div className="flex flex-col w-full mb-12 text-center">
               {/* <h2 className="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font">
