@@ -21,7 +21,7 @@ export default function Home() {
                 Trgovine
               </h1>
               <p className="mx-auto text-lg font-medium leading-relaxed  lg:w-1/2">
-                Najdi Fehto v eno od BIO trgovin v tvoji okolici.
+                Najdi Fehto v eni od BIO trgovin v tvoji okolici.
               </p>
             </div>
           </div>

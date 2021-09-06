@@ -108,7 +108,7 @@ export default function Home() {
               <img
                 className="object-cover object-center rounded-lg"
                 alt="hero"
-                src="/images/tofu-package.jpg"
+                src="/images/tofu-ribbon.png"
               />
             </div>
           </div>

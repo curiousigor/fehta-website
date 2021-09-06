@@ -90,7 +90,20 @@ export default function Home() {
                 </span>
                 Dovzeten za vpoj drugih okusov v obliki marinad in začimb
               </p>
-              <a
+              <div>
+                <p className="inline-block text-blue-500 border border-blue-500 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  klasik
+                </p>
+                <p className="inline-block text-red-500 border border-red-500 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  Dimljen
+                </p>
+                <p className="inline-block text-green-500 border border-green-500 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  Dimljen z baziliko
+                </p>
+              </div>
+
+              {/* TODO: ADD LINK WHEN PAGE IS FINISHED */}
+              {/* <a
                 href="/tofu"
                 className="mt-3 text-red-600 inline-flex items-center"
               >
@@ -106,13 +119,13 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
             <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
               <img
                 className="object-cover object-center rounded-lg"
                 alt="hero"
-                src="/images/IMG_4148.jpg"
+                src="/images/tofu-ribbon.png"
               />
             </div>
           </div>
@@ -126,7 +139,7 @@ export default function Home() {
                 className="object-cover object-center rounded"
                 alt="hero"
                 loading="lazy"
-                src="/images/tofu-package.jpg"
+                src="/images/tofu-ribbon.png"
               />
             </div>
             <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
@@ -183,7 +196,8 @@ export default function Home() {
                 </span>
                 Dovzeten za vpoj drugih okusov v obliki marinad in začimb
               </p>
-              <a
+              {/* TODO: ADD LINK WHEN PAGE IS FINISHED */}
+              {/* <a
                 href="/tofu"
                 className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
               >
@@ -199,7 +213,18 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
+              <div>
+                <p className="inline-block text-blue-500 border border-blue-500 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  klasik
+                </p>
+                <p className="inline-block text-red-500 border border-red-500 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  Dimljen
+                </p>
+                <p className="inline-block text-green-500 border border-green-500 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  Dimljen z baziliko
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -212,7 +237,7 @@ export default function Home() {
                 className="object-cover object-center rounded"
                 alt="hero"
                 loading="lazy"
-                src="/images/tempeh-package.jpg"
+                src="/images/tempeh-ribbon.png"
               />
             </div>
             <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
@@ -268,7 +293,8 @@ export default function Home() {
                 </span>
                 Vebuje vseh osem esencialnih aminokislin
               </p>
-              <a
+              {/* TODO: ADD LINK WHEN PAGE IS FINISHED */}
+              {/* <a
                 href="/tempeh"
                 className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
               >
@@ -284,7 +310,15 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
+              <div>
+                <p className="inline-block text-indigo-600 border border-indigo-600 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  klasik
+                </p>
+                <p className="inline-block text-yellow-600 border border-yellow-600 py-1 px-3 rounded-full font-normal text-xs tracking-wide uppercase mr-1">
+                  Dimljen
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -405,7 +439,7 @@ export default function Home() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src="./images/vita.jpg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
@@ -413,7 +447,12 @@ export default function Home() {
                         Vita
                       </span>
                       <span className="text-gray-500 text-sm">
-                        Little Kitchen Vibes
+                        <a
+                          href="https://littlekitchenvibes.com"
+                          target="_blank"
+                        >
+                          Little Kitchen Vibes
+                        </a>
                       </span>
                     </span>
                   </a>
@@ -430,7 +469,8 @@ export default function Home() {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p className="leading-relaxed mb-6 text-lg">
-                    Kaj tak dobrega pa še ne!
+                    Veš ono ko doživiš eksistencialno krizo ko poskusiš tofu? No
+                    to!
                   </p>
                   <a className="inline-flex items-center">
                     <img
@@ -440,7 +480,7 @@ export default function Home() {
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
-                        Nekdo drug
+                        Marcel
                       </span>
                       <span className="text-gray-500 text-sm">Instagram</span>
                     </span>
@@ -492,7 +532,8 @@ export default function Home() {
                       BIO trgovine v tvoji okolici
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Preveri kje se nahajajo Fehtine dobrote, in jih prevzemi v tvoji najljubši BIO trgovini.
+                      Preveri kje se nahajajo Fehtine dobrote, in jih prevzemi v
+                      tvoji najljubši BIO trgovini.
                     </p>
                     <a
                       href="/trgovine"
@@ -534,9 +575,7 @@ export default function Home() {
                     <p className="leading-relaxed text-base">
                       2. Ti nakažeš, mi pošljemo.
                     </p>
-                    <p className="leading-relaxed text-base">
-                      3. Ti malicaš.
-                    </p>
+                    <p className="leading-relaxed text-base">3. Ti malicaš.</p>
                     <a
                       className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
                       href="mailto:info@fehta.com?subject=Hej%20Fehta!"

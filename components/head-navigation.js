@@ -6,7 +6,8 @@ class Navigation extends React.Component {
       <div className="mx-auto max-w-screen-sm items-center pb-16 md:pb-28 pt-8 md:pt-16">
         <div className="transition duration-500 ease-in-out transform">
           <div className="flex flex-wrap px-3 mx-auto items-center flex-row">
-            <nav className="flex flex-wrap items-center justify-start text-base ">
+            {/* TODO: ADD NAVIGATION */}
+            {/* <nav className="flex flex-wrap items-center justify-start text-base ">
               <ul className="items-center inline-block list-none lg:inline-flex">
                 <li>
                   <a href="/tofu" className="px-4 py-1 mr-1 text-base">
@@ -19,7 +20,7 @@ class Navigation extends React.Component {
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
             <a href="/" className="justify-center ml-auto mr-auto">
               <div className="inline-flex items-center">
                 <svg
@@ -52,7 +53,8 @@ class Navigation extends React.Component {
                 </svg>
               </div>
             </a>
-            <nav className="flex flex-wrap items-center justify-start text-base ">
+            {/* TODO: ADD NAVIGATION */}
+            {/* <nav className="flex flex-wrap items-center justify-start text-base ">
               <ul className="items-center inline-block list-none lg:inline-flex">
                 <li>
                   <a href="/trgovine" className="px-4 py-1 mr-1 text-base">
@@ -65,7 +67,7 @@ class Navigation extends React.Component {
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </div>
