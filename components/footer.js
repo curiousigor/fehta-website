@@ -38,12 +38,13 @@ class Footer extends React.Component {
               >
                 Trgovine
               </a>
-              <a
+              {/* TODO: ADD PAGE WHEN FINISHED */}
+              {/* <a
                 href="/o-fehti"
                 className="px-3 py-1 md:mr-1 text-base text-black transition duration-200 ease-in-out hover:text-gray-500"
               >
                 O Fehti
-              </a>
+              </a> */}
             </nav>
             <span className="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start">
               {/* Facebook icon */}
