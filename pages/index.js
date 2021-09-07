@@ -1,6 +1,14 @@
 import Head from "next/head";
+import Image from "next/image";
 import Navigation from "../components/head-navigation";
 import Footer from "../components/footer";
+
+// import images
+import HeaderImage from "../public/images/header-image.png";
+import TofuImage from "../public/images/tofu-ribbon.png";
+import TempehImage from "../public/images/tempeh-ribbon.png";
+import Testimonial1 from "../public/images/vita.jpg";
+import Testimonial2 from "../public/images/fehta-profile.jpg";
 
 export default function Home() {
   return (
@@ -16,10 +24,10 @@ export default function Home() {
         {/* Hero */}
         <section className="pb-0 md:pb-28">
           <div className="max-w-3xl mx-auto md:pb-16 pb-8 md:px-0 px-4">
-            <img
-              alt="content"
+            <Image
+              alt="Image of Fehta with products"
               className="object-cover object-center h-full w-full"
-              src="./images/header-image.png"
+              src={HeaderImage}
             />
           </div>
           <div className="container flex flex-col items-center px-5 py-8 mx-auto">
@@ -126,10 +134,10 @@ export default function Home() {
               </a> */}
             </div>
             <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
-              <img
+              <Image
                 className="object-cover object-center rounded-lg"
-                alt="hero"
-                src="/images/tofu-ribbon.png"
+                alt="Picture of Tofu"
+                src={TofuImage}
               />
             </div>
           </div>
@@ -139,11 +147,11 @@ export default function Home() {
         <section className="block sm:hidden">
           <div className="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
             <div className="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/2">
-              <img
+              <Image
                 className="object-cover object-center rounded"
-                alt="hero"
+                alt="Picture of Tofu"
                 loading="lazy"
-                src="/images/tofu-ribbon.png"
+                src={TofuImage}
               />
             </div>
             <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
@@ -237,11 +245,11 @@ export default function Home() {
         <section className="pb-0 md:pb-14 md:pt-20">
           <div className="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
             <div className="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/2">
-              <img
+              <Image
                 className="object-cover object-center rounded"
-                alt="hero"
+                alt="Picture of Tempeh"
                 loading="lazy"
-                src="/images/tempeh-ribbon.png"
+                src={TempehImage}
               />
             </div>
             <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
@@ -441,11 +449,13 @@ export default function Home() {
                     Najboljši tofu ever!
                   </p>
                   <a className="inline-flex items-center">
-                    <img
-                      alt="testimonial"
-                      src="./images/vita.jpg"
-                      className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                    />
+                    <div className="w-12 h-12">
+                      <Image
+                        className="rounded-full flex-shrink-0 object-cover object-center"
+                        alt="Client testimonial: Vita"
+                        src={Testimonial1}
+                      />
+                    </div>
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Vita
@@ -489,11 +499,13 @@ export default function Home() {
                     to!
                   </p>
                   <a className="inline-flex items-center">
-                    <img
-                      alt="testimonial"
-                      src="./images/fehta-profile.jpg"
-                      className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                    />
+                    <div className="w-12 h-12">
+                      <Image
+                        alt="Client testimonial: Marcel"
+                        src={Testimonial2}
+                        className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                      />
+                    </div>
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Marcel

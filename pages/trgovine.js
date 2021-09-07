@@ -1,6 +1,20 @@
 import Head from "next/head";
+import Image from "next/image";
 import Navigation from "../components/head-navigation";
 import Footer from "../components/footer";
+
+// import images
+import AjdaMBImage from "../public/images/ajda-maribor.jpg";
+import BajkaImage from "../public/images/bajka.jpg";
+import BiotopicCEImage from "../public/images/biotopic-celje.jpg";
+import BiotopicLJImage from "../public/images/biotopic-ljubljana.jpg";
+import BiotopicMBImage from "../public/images/biotopic-maribor.jpg";
+import DobraMiselImage from "../public/images/dobra-misel.jpg";
+import GustImage from "../public/images/gust.jpg";
+import VeganskoImage from "../public/images/vegansko.jpg";
+import VegevitaImage from "../public/images/vegevita.jpg";
+import ZlataPtickaImage from "../public/images/zlata-pticka.jpg";
+import ZrnoDoZrnaImage from "../public/images/zrno-do-zrna.jpg";
 
 export default function Home() {
   return (
@@ -49,10 +63,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Ajda store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/ajda-maribor.jpg"
+                    src={AjdaMBImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -60,7 +74,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/EnruoXm7ijF2Uhhn9">
                       <h3 className="text-gray-500 mb-3">
-                        Glavni trg 23, 2000 Maribor
+                        Glavni trg 23, <br />
+                        2000 Maribor
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/EnruoXm7ijF2Uhhn9">
@@ -85,10 +100,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Biotopic Maribor store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/biotopic-maribor.jpg"
+                    src={BiotopicMBImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -96,7 +111,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/3LVpishi8uW2RtWF6">
                       <h3 className="text-gray-500 mb-3">
-                        Pobreška cesta 18, 2000 Maribor
+                        Pobreška cesta 18, <br />
+                        2000 Maribor
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/3LVpishi8uW2RtWF6">
@@ -121,10 +137,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Biotopic Celje store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/biotopic-celje.jpg"
+                    src={BiotopicCEImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -132,7 +148,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/DVxUsreCcbEMWEcR7">
                       <h3 className="text-gray-500 mb-3">
-                        Mariborska cesta 100, 3000 Celje
+                        Mariborska cesta 100, <br />
+                        3000 Celje
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/DVxUsreCcbEMWEcR7">
@@ -157,10 +174,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Biotopic Ljubljana store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/biotopic-ljubljana.jpg"
+                    src={BiotopicLJImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -168,7 +185,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/q7Wi8M5ijXVwQpjX6">
                       <h3 className="text-gray-500 mb-3">
-                        Megamarket Interspar, Jamova cesta 105, 1000 Ljubljana
+                        Megamarket Interspar, Jamova cesta 105, <br />
+                        1000 Ljubljana
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/q7Wi8M5ijXVwQpjX6">
@@ -193,10 +211,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Vegansko.si store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/vegansko.jpg"
+                    src={VeganskoImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -204,7 +222,8 @@ export default function Home() {
                     </h2>
                     <a href="https://g.page/Vegansko?share">
                       <h3 className="text-gray-500 mb-3">
-                        Trg mladinskih delovnih brigad 10, 1000 Ljubljana
+                        Trg mladinskih delovnih brigad 10, <br />
+                        1000 Ljubljana
                       </h3>
                     </a>
                     <a href="https://g.page/Vegansko?share">
@@ -229,10 +248,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Gušt store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/gust.jpg"
+                    src={GustImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -240,7 +259,8 @@ export default function Home() {
                     </h2>
                     <a href="https://g.page/TrgovinaGust?share">
                       <h3 className="text-gray-500 mb-3">
-                        Ljubljanska cesta 73, 1230 Domžale
+                        Ljubljanska cesta 73, <br />
+                        1230 Domžale
                       </h3>
                     </a>
                     <a href="https://g.page/TrgovinaGust?share">
@@ -265,10 +285,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Zlata Ptička store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/zlata-pticka.jpg"
+                    src={ZlataPtickaImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -276,7 +296,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/qCb8CFNCx9scG3sx8">
                       <h3 className="text-gray-500 mb-3">
-                        Šutna 2, 1241 Kamnik
+                        Šutna 2, <br />
+                        1241 Kamnik
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/qCb8CFNCx9scG3sx8">
@@ -301,10 +322,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Dobra Misel store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/dobra-misel.jpg"
+                    src={DobraMiselImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -312,7 +333,8 @@ export default function Home() {
                     </h2>
                     <a href="https://g.page/Dobramisel?share">
                       <h3 className="text-gray-500 mb-3">
-                        Železniška ulica 5, 4248 Lesce
+                        Železniška ulica 5, <br />
+                        4248 Lesce
                       </h3>
                     </a>
                     <a href="https://g.page/Dobramisel?share">
@@ -337,10 +359,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Zrno do Zrna store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/zrno-do-zrna.jpg"
+                    src={ZrnoDoZrnaImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -348,7 +370,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/RPDbF25i5Kkmx8sY6">
                       <h3 className="text-gray-500 mb-3">
-                        Trubarjeva cesta 8, 1000 Ljubljana
+                        Trubarjeva cesta 8, <br />
+                        1000 Ljubljana
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/RPDbF25i5Kkmx8sY6">
@@ -373,10 +396,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Bajka store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/bajka.jpg"
+                    src={BajkaImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -384,7 +407,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/LGLZzfFjiEUqSNrq8">
                       <h3 className="text-gray-500 mb-3">
-                        Panonska ulica 8, 9250 Gornja Radgona
+                        Panonska ulica 8, <br />
+                        9250 Gornja Radgona
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/LGLZzfFjiEUqSNrq8">
@@ -409,10 +433,10 @@ export default function Home() {
               {/* Store */}
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img
-                    alt="team"
+                  <Image
+                    alt="Image of Vegevita store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                    src="/images/vegevita.jpg"
+                    src={VegevitaImage}
                   />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -420,7 +444,8 @@ export default function Home() {
                     </h2>
                     <a href="https://goo.gl/maps/HcnR9qmDCHe6gv7M7">
                       <h3 className="text-gray-500 mb-3">
-                        Ljubljanska cesta 40, 2310 Slovenska Bistrica
+                        Ljubljanska cesta 40, <br />
+                        2310 Slovenska Bistrica
                       </h3>
                     </a>
                     <a href="https://goo.gl/maps/HcnR9qmDCHe6gv7M7">
