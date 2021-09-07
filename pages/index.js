@@ -491,7 +491,7 @@ export default function Home() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/107x107"
+                      src="./images/fehta-profile.jpg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
