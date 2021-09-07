@@ -66,6 +66,7 @@ export default function Home() {
                   <Image
                     alt="Image of Ajda store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={AjdaMBImage}
                   />
                   <div className="w-full">
@@ -103,6 +104,7 @@ export default function Home() {
                   <Image
                     alt="Image of Biotopic Maribor store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={BiotopicMBImage}
                   />
                   <div className="w-full">
@@ -140,6 +142,7 @@ export default function Home() {
                   <Image
                     alt="Image of Biotopic Celje store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={BiotopicCEImage}
                   />
                   <div className="w-full">
@@ -177,6 +180,7 @@ export default function Home() {
                   <Image
                     alt="Image of Biotopic Ljubljana store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={BiotopicLJImage}
                   />
                   <div className="w-full">
@@ -214,6 +218,7 @@ export default function Home() {
                   <Image
                     alt="Image of Vegansko.si store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={VeganskoImage}
                   />
                   <div className="w-full">
@@ -251,6 +256,7 @@ export default function Home() {
                   <Image
                     alt="Image of Gušt store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={GustImage}
                   />
                   <div className="w-full">
@@ -288,6 +294,7 @@ export default function Home() {
                   <Image
                     alt="Image of Zlata Ptička store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={ZlataPtickaImage}
                   />
                   <div className="w-full">
@@ -325,6 +332,7 @@ export default function Home() {
                   <Image
                     alt="Image of Dobra Misel store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={DobraMiselImage}
                   />
                   <div className="w-full">
@@ -362,6 +370,7 @@ export default function Home() {
                   <Image
                     alt="Image of Zrno do Zrna store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={ZrnoDoZrnaImage}
                   />
                   <div className="w-full">
@@ -399,6 +408,7 @@ export default function Home() {
                   <Image
                     alt="Image of Bajka store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={BajkaImage}
                   />
                   <div className="w-full">
@@ -436,6 +446,7 @@ export default function Home() {
                   <Image
                     alt="Image of Vegevita store"
                     className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    loading="lazy"
                     src={VegevitaImage}
                   />
                   <div className="w-full">

@@ -136,6 +136,7 @@ export default function Home() {
             <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
               <Image
                 className="object-cover object-center rounded-lg"
+                loading="lazy"
                 alt="Picture of Tofu"
                 src={TofuImage}
               />
