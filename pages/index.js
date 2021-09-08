@@ -21,7 +21,37 @@ export default function Home() {
           name="description"
           content="Fehta razbija mite o neokusni rastlinski prehrani in nepoznavanju receptov, ter rešuje govorice, da je tofu - fuj, da ga jedo samo obsedeni vegani, ter da je tempeh gobica za čiščenje obraza. (To je resnična zgodba.)"
         />
+
+        {/* Favicons */}
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/images/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/images/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/images/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/images/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="/images/safari-pinned-tab.svg"
+          color="#5bbad5"
+        />
+        <meta name="msapplication-TileColor" content="#ffc40d" />
+        <meta name="msapplication-config" content="/images/browserconfig.xml" />
+        <meta name="theme-color" content="#ffffff" />
+
+        {/* Keywords */}
         <meta
           name="keywords"
           content="fehta, tofu, tempeh, food, hrana za vse, dobra hrana, recept, recepti, rastlinsko"
