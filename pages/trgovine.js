@@ -20,8 +20,53 @@ export default function Home() {
   return (
     <div className="w-screen">
       <Head>
-        <title>Trgovine - Fehta</title>
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Fehta tofu in tempeh - Trgovine</title>
+        <meta
+          name="description"
+          content="Fehta razbija mite o neokusni rastlinski prehrani in nepoznavanju receptov, ter rešuje govorice, da je tofu - fuj, da ga jedo samo obsedeni vegani, ter da je tempeh gobica za čiščenje obraza. (To je resnična zgodba.)"
+        />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="keywords"
+          content="fehta, tofu, tempeh, food, hrana za vse, dobra hrana, recept, recepti, rastlinsko"
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Fehta tofu in tempeh - Trgovine" />
+        <meta
+          itemprop="description"
+          content="Fehta razbija mite o neokusni rastlinski prehrani in nepoznavanju receptov, ter rešuje govorice, da je tofu - fuj, da ga jedo samo obsedeni vegani, ter da je tempeh gobica za čiščenje obraza. (To je resnična zgodba.)"
+        />
+        <meta
+          itemprop="image"
+          content="https://fehta.com/images/share-image.jpg"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://fehta.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Fehta tofu in tempeh - Trgovine" />
+        <meta
+          property="og:description"
+          content="Fehta razbija mite o neokusni rastlinski prehrani in nepoznavanju receptov, ter rešuje govorice, da je tofu - fuj, da ga jedo samo obsedeni vegani, ter da je tempeh gobica za čiščenje obraza. (To je resnična zgodba.)"
+        />
+        <meta
+          property="og:image"
+          content="https://fehta.com/images/share-image.jpg"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Fehta tofu in tempeh - Trgovine" />
+        <meta
+          name="twitter:description"
+          content="Fehta razbija mite o neokusni rastlinski prehrani in nepoznavanju receptov, ter rešuje govorice, da je tofu - fuj, da ga jedo samo obsedeni vegani, ter da je tempeh gobica za čiščenje obraza. (To je resnična zgodba.)"
+        />
+        <meta
+          name="twitter:image"
+          content="https://fehta.com/images/share-image.jpg"
+        />
       </Head>
 
       <Navigation />
