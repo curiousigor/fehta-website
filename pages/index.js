@@ -535,7 +535,7 @@ export default function Home() {
                     Brez aditivov in konzervansov
                   </h2>
                   <p className="leading-relaxed text-base">
-                    Raje sveže, kot z nepotrebnimi dodatki.
+                    Raje sveže kot z nepotrebnimi dodatki.
                   </p>
                 </div>
               </div>
@@ -735,8 +735,8 @@ export default function Home() {
                       BIO trgovine v tvoji okolici
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Preveri kje se nahajajo Fehtine dobrote, in jih prevzemi v
-                      tvoji najljubši BIO trgovini.
+                      Preveri, kje se nahajajo Fehtine dobrote, in jih prevzemi
+                      v tvoji najljubši BIO trgovini.
                     </p>
                     <a
                       href="/trgovine"
@@ -783,7 +783,7 @@ export default function Home() {
                       className="mt-3 text-red-600 hover:text-red-800 transition duration-200 ease-in-out inline-flex items-center"
                       href="mailto:info@fehta.com?subject=Hej%20Fehta!"
                     >
-                      Napiši nam e-mail
+                      Pošlji nam e-mail
                       <svg
                         fill="none"
                         stroke="currentColor"
