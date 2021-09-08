@@ -536,7 +536,7 @@ export default function Home() {
                   <p className="leading-relaxed mb-6 text-lg">
                     Okej, jst lahko živim od tega dimljenega tofuja in tempeha.
                   </p>
-                  <a className="inline-flex items-center">
+                  <div className="inline-flex items-center">
                     <div className="w-12 h-12">
                       <Image
                         className="rounded-full flex-shrink-0 object-cover object-center"
@@ -569,7 +569,7 @@ export default function Home() {
                         </a>
                       </span>
                     </span>
-                  </a>
+                  </div>
                 </div>
               </div>
               {/* Testimonial with link end */}
@@ -588,7 +588,7 @@ export default function Home() {
                     Dans sva s punco prvič probali vaš tofu. Tok je bil dobr, da
                     sva stali ob pultu, ga rezali in celga pojedli brez vsega 😭
                   </p>
-                  <a className="inline-flex items-center">
+                  <div className="inline-flex items-center">
                     <div className="w-12 h-12">
                       <Image
                         alt="Client testimonial: Marcel"
@@ -621,7 +621,7 @@ export default function Home() {
                         </a>
                       </span>
                     </span>
-                  </a>
+                  </div>
                 </div>
               </div>
               {/* Testimonial with link end */}
