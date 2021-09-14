@@ -18,7 +18,7 @@ import ZrnoDoZrnaImage from "../public/images/zrno-do-zrna.jpg";
 
 export default function Home() {
   return (
-    <div className="w-screen">
+    <div>
       <Head>
         {/* <!-- HTML Meta Tags --> */}
         <title>Fehta tofu in tempeh - Trgovine</title>
