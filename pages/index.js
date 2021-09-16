@@ -15,7 +15,7 @@ import Testimonial3 from "../public/images/imade_amess.jpg";
 
 export default function Home() {
   return (
-    <div className="w-screen">
+    <div>
       <Head>
         {/* <!-- HTML Meta Tags --> */}
         <title>Fehta tofu in tempeh - Dobra hrana za fajne ljudi</title>
