@@ -1,5 +1,3 @@
-import { Person } from "schema-dts";
-import { jsonLdScriptProps } from "react-schemaorg";
 import Head from "next/head";
 import Image from "next/image";
 import Navigation from "../components/head-navigation";
@@ -103,17 +101,16 @@ export default function Home() {
           name="twitter:image"
           content="https://fehta.com/images/share-image.jpg"
         />
-        <script
-          {...(jsonLdScriptProps <
-            Person >
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              url: "http://fehta.com",
-              logo: "http://www.example.com/images/fehta-logo.svg",
-            })}
-        />
       </Head>
+
+      <script type="application/ld+json">
+        {`
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          url: "http://fehta.com",
+          logo: "http://www.example.com/images/fehta-logo.svg"
+       `}
+      </script>
 
       <Navigation />
 
