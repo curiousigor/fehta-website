@@ -101,15 +101,205 @@ export default function Home() {
           name="twitter:image"
           content="https://fehta.com/images/share-image.jpg"
         />
+        {/* Schema.org LOGO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `"@context": "https://schema.org",
+            __html: `{"@context": "https://schema.org",
             "@type": "Organization",
-            url: "https://fehta.com",
-            logo: "https://fehta.com/images/fehta-logo.svg"`,
+            "url": "https://fehta.com",
+            "logo": "https://fehta.com/images/fehta-logo.svg"}`,
           }}
         />
+        {/* END Schema.org */}
+        {/* Schema.org TOFU KLASIK */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{"@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "EKO Tofu klasik",
+              "image": [
+                "https://fehta.com/images/tofu-ribbon.png"
+              ],
+              "description": "Prefinjen gospod čvrste konstitucije iz ekoloških sojinih zrn, vzgojenih na hrvaških naravnih poljih. 🌱
+
+              Blag in delikaten okus s karakterjem, a hkrati dovzeten za vpoj drugih okusov v obliki marinad in začimb iz vseh vetrov sveta. 🌏 Z njim potuj po poteh currija, omak ali ga uporabi za sladico. Mix it baby!
+              
+              Bogat vir kalcija: 480mg na polovičko tofuja. 💪
+              
+              nizkokaloričnen • dieteten • brez holesterola • ekološki rastlinski produkt
+              ",
+              "brand": {
+                "@type": "Brand",
+                "name": "Fehta"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://fehta.com/",
+                "priceCurrency": "EUR",
+                "price": "2.68",
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }`,
+          }}
+        />
+        {/* END Schema.org */}
+        {/* Schema.org TOFU KLASIK */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{"@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "EKO Tofu dimljen",
+              "image": [
+                "https://fehta.com/images/tofu-ribbon.png"
+              ],
+              "description": "Močan golcar iz hoste, dimljen z naravnim bukovim dimom in grajen iz ekoloških sojinih zrn, zraslih na hrvaških sončnih poljih. 🌻
+
+              Kot močan stisk roke, o njemu vse pove poln okus, ki te iz nerodnega hloda zbudi v pravega žar majstora. Srečn je na žaru, v sendviču med solato in paradajzom ali na večerni sirni dilici ob pivu s prijatelji. 🪵
+              
+              nizkokaloričnen • dieteten • brez holesterola • ekološki rastlinski produkt
+              ",
+              "brand": {
+                "@type": "Brand",
+                "name": "Fehta"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://fehta.com/",
+                "priceCurrency": "EUR",
+                "price": "3.63",
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }`,
+          }}
+        />
+        {/* END Schema.org */}
+        {/* Schema.org TOFU KLASIK */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{"@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "EKO Tofu dimljen z bazikiko",
+              "image": [
+                "https://fehta.com/images/tofu-ribbon.png"
+              ],
+              "description": "Mladi koketar, ki je sicer pridelan iz hrvaške ekološke soje, vendar njegova duša prihaja iz toplih krajev nekje v Italiji. Je polnega, dimljenega okusa, prepreden z dišečo vrtno baziliko. 🤤
+
+              Razveseljuje predvsem sendvične gurmane ali poletne solatarje, redno pa se spogleduje tudi z večernimi narezki in vinom. 💃
+              
+              nizkokaloričnen • dieteten • brez holesterola • ekološki rastlinski produkt
+              ",
+              "brand": {
+                "@type": "Brand",
+                "name": "Fehta"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://fehta.com/",
+                "priceCurrency": "EUR",
+                "price": "3.67",
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }`,
+          }}
+        />
+        {/* END Schema.org */}
+        {/* Schema.org TOFU KLASIK */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{"@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "EKO Tempeh klasik",
+              "image": [
+                "https://fehta.com/images/tempeh-ribbon.png"
+              ],
+              "description": "Sramežljivež iz kuhane ekološke soje, katerega je potrebno malce bolje spoznat, da veš v katerem grmu tiči okus.🧐
+
+              Ko z njim preživiš obrok ali dva, postane nepogrešljiv spremljevalec solat, rižot ali riževih rezancev, kot zvezda* pa se izkaže v spremljavi z zelenjavo in sojino omako.🥢
+              
+              nizkokaloričnen • dieteten • brez holesterola • ekološki rastlinski produkt
+              ",
+              "brand": {
+                "@type": "Brand",
+                "name": "Fehta"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://fehta.com/",
+                "priceCurrency": "EUR",
+                "price": "4.12",
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }`,
+          }}
+        />
+        {/* END Schema.org */}
+        {/* Schema.org TOFU KLASIK */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{"@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "EKO Tempeh dimljen",
+              "image": [
+                "https://fehta.com/images/tempeh-ribbon.png"
+              ],
+              "description": "Malo jaći karakter iz kuhane ekološke soje, ki v nasprotju s klasikom, točno ve kaj dela. Zaradi naravnega bukovega dima, razvaja in masira brbončice ter odpira svet okusov, zaradi katerih je marsikdo že zajokal od sreče. 💦
+
+              Aplaudiramo mu predvsem na svežem kruhku z avokadom, ob njem smo jokali v tacosih, drznemo pa si ga vzeti tudi na sočni pici. 👩🏼‍🍳 Kdo je rekel da so rastlinske pice boring, ay? 😉
+              
+              nizkokaloričnen • dieteten • brez holesterola • ekološki rastlinski produkt
+              ",
+              "brand": {
+                "@type": "Brand",
+                "name": "Fehta"
+              },
+              "offers": {
+                "@type": "Offer",
+                "url": "https://fehta.com/",
+                "priceCurrency": "EUR",
+                "price": "3.95",
+                "itemCondition": "https://schema.org/NewCondition",
+                "availability": "https://schema.org/InStock"
+              }
+            }`,
+          }}
+        />
+        {/* END Schema.org */}
+        {/* Schema.org FAQ */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{"@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+              "@type": "Question",
+              "name": "Kaj je Tofu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Soja in tofu sta eden najpomembnejših virov beljakovin rastlinskega izvora, ker vsebujeta vse bistvene aminokisline, ki so potrebne za normalno delovanje človeškega telesa. Tofu je zelo enostavno prebavljiv, saj se v proizvodnem procesu odstranijo vlaknine in v vodi topni ogljikovi hidrati. Zato ga lahko uživajo majhni otroci, starejši in ljudje s prebavnimi težavami!"
+              }
+            }, {
+              "@type": "Question",
+              "name": "Kaj je Tempeh?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tempeh je izdelan iz kuhane soje, ki je v procesu fermentacije povezana z belkasto, bombažno plemenito plesnijo. Bogat je z naravnimi vlakni, ki spodbujajo in uravnavajo prebavo. V svežem tempehu je odstotek beljakovin večji od 20%, kot ga najdemo v mesu. Lahko rečemo, da tempeh vsebuje t.i. popolne beljakovine, ker vsebujejo vseh osem esencialnih aminokislin.
+                "
+              }
+            }]
+            }`,
+          }}
+        />
+        {/* END Schema.org */}
       </Head>
 
       <Navigation />
