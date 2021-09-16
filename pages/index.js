@@ -1,3 +1,5 @@
+import { Person } from "schema-dts";
+import { jsonLdScriptProps } from "react-schemaorg";
 import Head from "next/head";
 import Image from "next/image";
 import Navigation from "../components/head-navigation";
@@ -59,15 +61,15 @@ export default function Home() {
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta
-          itemprop="name"
+          itemProp="name"
           content="Fehta tofu in tempeh - Dobra hrana za fajne ljudi"
         />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Fehta razbija mite o neokusni rastlinski prehrani in nepoznavanju receptov, ter rešuje govorice, da je tofu - fuj, da ga jedo samo obsedeni vegani, ter da je tempeh gobica za čiščenje obraza. (To je resnična zgodba.)"
         />
         <meta
-          itemprop="image"
+          itemProp="image"
           content="https://fehta.com/images/share-image.jpg"
         />
 
@@ -100,6 +102,16 @@ export default function Home() {
         <meta
           name="twitter:image"
           content="https://fehta.com/images/share-image.jpg"
+        />
+        <script
+          {...(jsonLdScriptProps <
+            Person >
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              url: "http://fehta.com",
+              logo: "http://www.example.com/images/fehta-logo.svg",
+            })}
         />
       </Head>
 
