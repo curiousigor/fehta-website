@@ -120,7 +120,7 @@ export default function Home() {
               "@type": "Product",
               "name": "EKO Tofu klasik",
               "image": [
-                "https://fehta.com/images/tofu-ribbon.png"
+                "https://fehta.com/images/product-tofu-klasik.jpg"
               ],
               "description": "Prefinjen gospod čvrste konstitucije iz ekoloških sojinih zrn, vzgojenih na hrvaških naravnih poljih. 🌱
 
@@ -154,7 +154,7 @@ export default function Home() {
               "@type": "Product",
               "name": "EKO Tofu dimljen",
               "image": [
-                "https://fehta.com/images/tofu-ribbon.png"
+                "https://fehta.com/images/product-tofu-dimljen.jpg"
               ],
               "description": "Močan golcar iz hoste, dimljen z naravnim bukovim dimom in grajen iz ekoloških sojinih zrn, zraslih na hrvaških sončnih poljih. 🌻
 
@@ -186,7 +186,7 @@ export default function Home() {
               "@type": "Product",
               "name": "EKO Tofu dimljen z bazikiko",
               "image": [
-                "https://fehta.com/images/tofu-ribbon.png"
+                "https://fehta.com/images/product-tofu-bazilika.jpg"
               ],
               "description": "Mladi koketar, ki je sicer pridelan iz hrvaške ekološke soje, vendar njegova duša prihaja iz toplih krajev nekje v Italiji. Je polnega, dimljenega okusa, prepreden z dišečo vrtno baziliko. 🤤
 
@@ -218,7 +218,7 @@ export default function Home() {
               "@type": "Product",
               "name": "EKO Tempeh klasik",
               "image": [
-                "https://fehta.com/images/tempeh-ribbon.png"
+                "https://fehta.com/images/product-tempeh-klasik.jpg"
               ],
               "description": "Sramežljivež iz kuhane ekološke soje, katerega je potrebno malce bolje spoznat, da veš v katerem grmu tiči okus.🧐
 
@@ -250,7 +250,7 @@ export default function Home() {
               "@type": "Product",
               "name": "EKO Tempeh dimljen",
               "image": [
-                "https://fehta.com/images/tempeh-ribbon.png"
+                "https://fehta.com/images/product-tempeh-dimljen.jpg"
               ],
               "description": "Malo jaći karakter iz kuhane ekološke soje, ki v nasprotju s klasikom, točno ve kaj dela. Zaradi naravnega bukovega dima, razvaja in masira brbončice ter odpira svet okusov, zaradi katerih je marsikdo že zajokal od sreče. 💦
 
