@@ -300,6 +300,12 @@ export default function Home() {
           }}
         />
         {/* END Schema.org */}
+        <script
+          async
+          defer
+          data-website-id="464fa2bd-dbe4-4e6b-ad40-2b9e94596b54"
+          src="https://umami.urbanjungle.cloud/transitions.js"
+        ></script>
       </Head>
 
       <Navigation />

@@ -8,6 +8,12 @@ export default function Home() {
       <Head>
         <title>Fehta - Hrana za vse</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          defer
+          data-website-id="464fa2bd-dbe4-4e6b-ad40-2b9e94596b54"
+          src="https://umami.urbanjungle.cloud/transitions.js"
+        ></script>
       </Head>
 
       <Navigation />
