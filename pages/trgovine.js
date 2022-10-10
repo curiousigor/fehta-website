@@ -97,12 +97,7 @@ export default function Home() {
           name="twitter:image"
           content="https://fehta.com/images/share-image.jpg"
         />
-        <script
-          async
-          defer
-          data-website-id="b65841a7-9321-413e-9b1f-73ff8b32200b"
-          src="https://umami.urbanjungle.cloud/transitions.js"
-        ></script>
+        <script defer data-domain="fehta.com" src="https://plausible.urbanjungle.cloud/js/plausible.js"></script>
       </Head>
 
       <Navigation />
