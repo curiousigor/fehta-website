@@ -300,12 +300,7 @@ export default function Home() {
           }}
         />
         {/* END Schema.org */}
-        <script
-          async
-          defer
-          data-website-id="464fa2bd-dbe4-4e6b-ad40-2b9e94596b54"
-          src="https://umami.urbanjungle.cloud/transitions.js"
-        ></script>
+        <script defer data-domain="fehta.com" src="https://plausible.urbanjungle.cloud/js/plausible.js"></script>
       </Head>
 
       <Navigation />
