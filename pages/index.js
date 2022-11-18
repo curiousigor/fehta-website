@@ -300,7 +300,7 @@ export default function Home() {
           }}
         />
         {/* END Schema.org */}
-        <script defer data-domain="fehta.com" src="https://plausible.urbanjungle.cloud/js/plausible.js"></script>
+        <script defer data-domain="fehta.com" src="https://a.hey.si/js/plausible.js"></script>
       </Head>
 
       <Navigation />
