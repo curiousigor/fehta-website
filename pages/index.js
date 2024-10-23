@@ -300,7 +300,7 @@ export default function Home() {
           }}
         />
         {/* END Schema.org */}
-        <script defer data-domain="fehta.com" src="https://a.hey.si/js/script.hash.outbound-links.js"></script>
+        <script defer data-domain="fehta.com" src="https://plausible.hey.si/js/script.hash.outbound-links.js"></script>
       </Head>
 
       <Navigation />
