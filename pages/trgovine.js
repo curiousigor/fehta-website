@@ -97,7 +97,7 @@ export default function Home() {
           name="twitter:image"
           content="https://fehta.com/images/share-image.jpg"
         />
-        <script defer data-domain="fehta.com" src="https://a.hey.si/js/script.hash.outbound-links.js"></script>
+        <script defer data-domain="fehta.com" src="https://plausible.hey.si/js/script.hash.outbound-links.js"></script>
       </Head>
 
       <Navigation />
